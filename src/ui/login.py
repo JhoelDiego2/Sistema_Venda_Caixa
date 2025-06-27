@@ -1,6 +1,6 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from controller import autenticar
+from src.controller.user import autenticar
 
 def iniciar_interface():
     ctk.set_appearance_mode("light")

@@ -1,4 +1,4 @@
-from database import get_connection
+from database.database import get_connection
 
 def inserir_produto(nome, preco, estoque):
     conn = get_connection()

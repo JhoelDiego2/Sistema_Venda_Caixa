@@ -1,4 +1,4 @@
-from models import inserir_produto, listar_produtos
+from src.model.user import inserir_produto, listar_produtos
 
 def autenticar(nome, preco, estoque):
     if nome and preco > 0 and estoque >= 0:
